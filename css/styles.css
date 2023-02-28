@@ -146,11 +146,7 @@ a {
   margin-top: 11px;
   margin-left: 9.5px;
 }
-.contact-icon svg:hover {
-  color: var(--brand-color);
-  background-color: #2196f3;
-}
-.contact-icon:hover {
+.list-contac svg:hover {
   color: var(--brand-color);
 }
 .logo {
@@ -385,6 +381,9 @@ a {
   top: 2447px;
   border-radius: 4px;
 }
+.icon:hover {
+  border: 1px solid #2196f3;
+}
 .icon-pad {
   display: flex;
   flex-direction: column;
@@ -392,12 +391,8 @@ a {
   padding: 20px;
   color: var(--list-contac);
 }
-.icon-pad svg:hover {
-  color: var(--brand-color);
-}
 .icon-pad:hover {
-  fill: #2196f3;
-  background-color: #2196f3;
+  color: var(--brand-color);
 }
 .flex-icon {
   display: flex;
